@@ -8,7 +8,7 @@ if (isset($_POST['simpan'])) {
 
     mysqli_query($conn,
         "INSERT INTO buku (judul, penulis, tahun)
-         VALUES ('$judul', '$penulis', '$tahun')");
+        VALUES ('$judul', '$penulis', '$tahun')");
 
     // pindah ke halaman utama setelah simpan
     header("Location: index.php");

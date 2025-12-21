@@ -1,4 +1,3 @@
 <?php
 include 'koneksi.php';
-echo "Koneksi database berhasil";
-?>
+echo "KONEKSI BERHASIL";
