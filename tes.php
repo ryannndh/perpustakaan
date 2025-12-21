@@ -1,3 +1,2 @@
 <?php
-include 'koneksi.php';
-echo "KONEKSI BERHASIL";
+echo "APACHE OK";
